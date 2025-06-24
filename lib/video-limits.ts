@@ -68,3 +68,5 @@ export function resetVideoPlays(): UserVideoData {
     lastReset: new Date().toISOString(),
   })
 }
+
+export { getUserVideoData as getVideoData }
